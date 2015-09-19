@@ -1,0 +1,33 @@
+{
+    "name": "rollerworks/uri-encoder-doctrine-cache",
+    "description": "Provides a Doctrine Cache adapter for the Rollerworks URIEncoder Component",
+    "keywords": ["rollerworks"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastiaan Stok",
+            "email": "s.stok@rollercapes.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "doctrine/cache": "^1.4.2",
+        "rollerworks/uri-encoder": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rollerworks\\Component\\UriEncoder\\Cache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rollerworks\\Component\\UriEncoder\\Cache\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
